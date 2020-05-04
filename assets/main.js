@@ -41,7 +41,7 @@ searchButton.addEventListener('click', function () {
 //  • Customize the CSS to your liking.
 //  • Use .trim() to remove unnecessary whitespace from the
 //    user-supplied string.
-//  • Use .toLowercase() on both the sentence and the user-
+//  • Use .toLowerCase() on both the sentence and the user-
 //    supplied string, so that your word search is case-
 //    insensitive.
 //  • Count the number of times the word appears.

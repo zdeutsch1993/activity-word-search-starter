@@ -1,10 +1,9 @@
 // COMPLETE THE TODOs BELOW...
+// Note: The primary TODOs for this Activity will not require 
+// you to edit the HTML or CSS.
 
 // On our HTML page, we have a #search-button, a #textbox input,
 // box a #sentence, and a #search-results DIV.
-
-// Note: The primary TODOs for this Activity will not require 
-// you to edit the HTML or CSS.
 
 // TODO 1: Use querySelector to assign EACH of the above 
 // elements to a variable, just like this:
@@ -42,8 +41,9 @@ searchButton.addEventListener('click', function () {
 //  • Use .trim() to remove unnecessary whitespace from the
 //    user-supplied string.
 //  • Use .toLowerCase() on both the sentence and the user-
-//    supplied string, so that your word search is case-
-//    insensitive.
+//    supplied string, so that your word search is 
+//    NOT case-sensitive.
 //  • Count the number of times the word appears.
 //  • Display the word count for the user.
-//  • Find a way to highlight the matching word.
+//  • Find a way to highlight the matching word(s). 
+//    Hint: .split() and Iteration.
